@@ -16,6 +16,8 @@ define('LARAVEL_START', microtime(true));
 
 require __DIR__.'/../vendor/autoload.php';
 
+// 加载数据库检测文件
+require __DIR__.'/helpers.php';
 /*
 |--------------------------------------------------------------------------
 | Include The Compiled Class File
