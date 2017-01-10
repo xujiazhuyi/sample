@@ -11,7 +11,9 @@
 |
 */
 
-// app_key:XEo9EUTXcac1HvHzjasgTecGP4QYOEjv
+// app_key:NCaCpGKxpJ88JW8ZLdgYs5PhyXS2FUt7
+// https://guarded-sea-66421.herokuapp.com/
+// guarded-sea-66421
 
 Route::get('/' , 'StaticPagesController@home')->name('home');
 Route::get('/help' , 'StaticPagesController@help')->name('help');
